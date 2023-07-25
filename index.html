@@ -14,9 +14,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- title -->
     <title>BikerZone</title>
+    <!-- script -->
+
     <!-- extra styles -->
     <style>
-        .font-poppins{
+        .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
     </style>
@@ -25,7 +27,7 @@
 
 <body>
     <!-- design by deisyUI -->
-    <header>
+    <header class="md:container md:mx-auto">
         <!-- nav bar starts -->
         <nav>
             <div class="navbar bg-base-100 ">
@@ -67,12 +69,115 @@
         <!-- nav bar ends -->
         <!-- banner section starts -->
         <section>
+            <!-- slider carosoul -->
+            <div class="carousel w-full bg-[#ceb7b2] h-[550px]">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <!-- slide 1 parts -->
+                    <div class="flex  p-4 gap-20 flex-col lg:flex-row  items-center lg:justify-around w-full">
+                        <div class="space-y-7">
+                            <h2 class="font-bold text-6xl text-[#000] font-poppins">
+                                Ride-on R15 V4 <br>with Smile
+                            </h2>
+                            <p class="text-[#000000]">
+                                Amet minim mollit non deserunt ullamco <br>
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="btn bg-[#E76F51] px-12 rounded-md text-xl">Purchase</button>
+
+                        </div>
+                        <div>
+                            <img src="./images/slider/bike1.png" class="w-full" />
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex  p-4 gap-20 flex-col lg:flex-row  items-center lg:justify-around w-full">
+                        <div class="space-y-7">
+                            <h2 class="font-bold text-6xl text-[#000] font-poppins">
+                                Ride-on R15 V4 <br>with Smile
+                            </h2>
+                            <p class="text-[#000000]">
+                                Amet minim mollit non deserunt ullamco <br>
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="btn bg-[#E76F51] px-12 rounded-md text-xl">Purchase</button>
+
+                        </div>
+                        <div>
+                            <img src="./images/slider/bike2.png" class="w-full" />
+                        </div>
+                    </div>
+                    <!-- slide part -->
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <!--new slide  -->
+                    <div class="flex  p-4 gap-20 flex-col lg:flex-row  items-center lg:justify-around w-full">
+                        <div class="space-y-7">
+                            <h2 class="font-bold text-6xl text-[#000] font-poppins">
+                                Ride-on R15 V4 <br>with Smile
+                            </h2>
+                            <p class="text-[#000000]">
+                                Amet minim mollit non deserunt ullamco <br>
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="btn bg-[#E76F51] px-12 rounded-md text-xl">Purchase</button>
+
+                        </div>
+                        <div>
+                            <img src="./images/slider/bike3.png" class="w-full" />
+                        </div>
+                    </div>
+                    
+                    <!-- slide part -->
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex  p-4 gap-20 flex-col lg:flex-row  items-center lg:justify-around w-full">
+                        <div class="space-y-7">
+                            <h2 class="font-bold text-6xl text-[#000] font-poppins">
+                                Ride-on R15 V4 <br>with Smile
+                            </h2>
+                            <p class="text-[#000000]">
+                                Amet minim mollit non deserunt ullamco <br>
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="btn bg-[#E76F51] px-12 rounded-md text-xl ">Purchase</button>
+
+                        </div>
+                        <div>
+                            <img src="./images/slider/bike4.png" class="w-full" />
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
 
         </section>
         <!-- banner section ends -->
 
     </header>
-    <main></main>
+    <main class="md:container md:mx-auto">
+        
+    </main>
     <footer></footer>
 </body>
 
